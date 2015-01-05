@@ -3,15 +3,15 @@ ui:
   ports:
     - "8081:8081"
   environment:
-    - app.host=localhost
-    - app.redis.host=localhost
+    - app.host=192.168.59.103
+    - app.redis.host=192.168.59.103
 apiGateway:
   image: wgorder/api-gateway
   ports:
     - "8080:8080"
   environment:
-    - app.host=localhost
-    - app.redis.host=localhost
+    - app.host=192.168.59.103
+    - app.redis.host=192.168.59.103
 serviceDiscovery:
   image: wgorder/service-discovery
   ports:
@@ -21,9 +21,9 @@ authServer:
   ports:
     - "8083:8083"
   environment:
-    - app.host=localhost
-    - app.redis.host=localhost
-    - app.postgres.host=localhost
+    - app.host=192.168.59.103
+    - app.redis.host=192.168.59.103
+    - app.postgres.host=192.168.59.103
 authDB:
   image: library/postgres
   ports:
@@ -34,4 +34,3 @@ redis:
   image: library/redis
   ports:
     - "6379:6379"
-
