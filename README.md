@@ -15,27 +15,27 @@ A simple shopping portal with cart and user accouts.  Users can add items to the
 
 #### Features
 
-- []  An Angular single page application
-- []  Login
+- [x]  An Angular single page application
+- [x]  Login
 - []  Logout
-- []  Register new users
-- []  Activate users
+- [x]  Register new users
+- [x]  Activate users
 - []  Shopping cart backed by spring data redis
-- []  Spring session to manage CSRF and session data in Redis across the applications
+- [x]  Spring session to manage CSRF and session data in Redis across the applications
 - []  Spring data Mongo as a customer/order store
 - []  Hypermedia driven Restful Web Services with spring-Data Rest
 - []  Angular application uses Hypermedia links to discover resources
-- []  New user registration flow with activation
+- [x]  New user registration flow with activation
 - []  Oauth2 protected services (auth code grant)
-- []  Central Authentication server (Authorization is handled by each application)
-- []  API Gateway layer to handle all requests.  A Zuul proxy will forward the requests to the appropriate microservice.
-- []  Eureka server to handle service registrations and allow for discoverability.  Each service will act as a client.  Zuul will make use of this to forward requests in the API gateway application.
+- [x]  Central Authentication server (Authorization is handled by each application)
+- [x]  API Gateway layer to handle all requests.  A Zuul proxy will forward the requests to the appropriate microservice.
+- [x]  Eureka server to handle service registrations and allow for discoverability.  Each service will act as a client.  Zuul will make use of this to forward requests in the API gateway application.
 - []  Admin (protected) dashboards accessable from the web application for viewing the Eureka and Hystrix dashboards
 - []  Hystrix for the circut breaker pattern
 - []  Ribbon for client side load balancing
 - []  Turbine to aggreagate Hystrix streams (viewable from the Hystrix dashboard on the admin UI)
 - []  Feign declarative web service client (integrated with Eureka and Ribbon for load balancing)
-- [] Gradle build
+- [x] Gradle build
 - [] Maven build
 - [] Dockerized
 - [] Integration tests
