@@ -17,7 +17,7 @@ A simple shopping portal with cart and user accouts.  Users can add items to the
 
 - [x]  An Angular single page application
 - [x]  Login
-- [ ]  Logout
+- [x]  Logout
 - [x]  Register new users
 - [x]  Activate users
 - [ ]  Shopping cart backed by spring data redis
