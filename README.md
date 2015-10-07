@@ -31,7 +31,7 @@ A simple shopping portal with cart and user accouts.  Users can add items to the
 - [x]  API Gateway layer to handle all requests.  A Zuul proxy will forward the requests to the appropriate microservice.
 - [x]  Eureka server to handle service registrations and allow for discoverability.  Each service will act as a client.  Zuul will make use of this to forward requests in the API gateway application.
 - [ ]  Admin (protected) dashboards accessable from the web application for viewing the Eureka and Hystrix dashboards
-- [ ]  Hystrix for the circut breaker pattern
+- [ ]  Hystrix for the circuit breaker pattern
 - [ ]  Ribbon for client side load balancing
 - [ ]  Turbine to aggreagate Hystrix streams (viewable from the Hystrix dashboard on the admin UI)
 - [ ]  Feign declarative web service client (integrated with Eureka and Ribbon for load balancing)
